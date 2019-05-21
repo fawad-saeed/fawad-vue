@@ -9,7 +9,7 @@ import "material-design-icons-iconfont/dist/material-design-icons.css";
 import Axios from "axios";
 
 Vue.prototype.$http = Axios.create({
-  baseURL: 'http://localhost:8000/api/'
+  baseURL: 'http://local.api.carzaty.com/v1/'
 });
 Vue.config.productionTip = false;
 
